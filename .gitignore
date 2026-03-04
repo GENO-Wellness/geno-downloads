@@ -1,1 +1,15 @@
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Logs
+*.log
+
+# Large APK files (hosted in GitHub Releases)
+android/debug/*.apk
