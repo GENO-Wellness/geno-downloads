@@ -2,7 +2,7 @@
 
 This repository hosts the installable APK files for the GENO Wellness mobile application.
 
-## Download Latest Version (v1.0.0 - March 4, 2026)
+## Download Latest Version (v1.1.0 - March 7, 2026)
 
 ### Android Debug Build
 
@@ -10,13 +10,21 @@ Choose the APK for your device architecture:
 
 | Architecture | Download | Size | Device Type |
 | ------------ | -------- | ---- | ----------- |
-| **ARM64** | [⬇️ Download](https://github.com/GENO-Wellness/geno-downloads/releases/download/v1.0.0/app-arm64-v8a-debug.apk) | 110 MB | Modern phones (2016+) |
-| **ARM32** | [⬇️ Download](https://github.com/GENO-Wellness/geno-downloads/releases/download/v1.0.0/app-armeabi-v7a-debug.apk) | 84 MB | Older phones |
-| **x86_64** | [⬇️ Download](https://github.com/GENO-Wellness/geno-downloads/releases/download/v1.0.0/app-x86_64-debug.apk) | 100 MB | Emulators/Chromebooks |
+| **ARM64** | [⬇️ Download](https://github.com/GENO-Wellness/geno-downloads/releases/download/v1.1.0/geno-wellness-arm64.apk) | 110 MB | Modern phones (2016+) |
+| **ARM32** | [⬇️ Download](https://github.com/GENO-Wellness/geno-downloads/releases/download/v1.1.0/geno-wellness-armeabi.apk) | 85 MB | Older phones |
+| **x86_64** | [⬇️ Download](https://github.com/GENO-Wellness/geno-downloads/releases/download/v1.1.0/geno-wellness-x86_64.apk) | 100 MB | Emulators/Chromebooks |
 
 **Recommended**: Most modern Android phones use **ARM64** (arm64-v8a).
 
 > 📦 **Note**: APK files are hosted as GitHub Release assets to avoid repository size limits.
+
+### What's New in v1.1.0
+
+- Redesigned wellness cards with professional gradient styling
+- Improved "My Wellness" screen with gradient header
+- Enhanced streak tracking with visual flame indicators
+- Better session countdown widgets
+- Points progress with level system
 
 ### Production Release
 
@@ -58,6 +66,7 @@ Previous builds are available in the `downloads/` folder:
 
 | Version | Date | Changes |
 | ------- | ---- | ------- |
+| 1.1.0 | Mar 7, 2026 | Redesigned wellness cards, improved My Wellness screen |
 | 1.0.0 | Mar 4, 2026 | Initial debug build with Daily.co video calls |
 
 ## Security
