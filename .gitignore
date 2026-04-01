@@ -13,3 +13,4 @@
 
 # Large APK files (hosted in GitHub Releases)
 android/debug/*.apk
+downloads/genowellness-debug.apk

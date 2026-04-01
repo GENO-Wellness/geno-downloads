@@ -1,10 +1,18 @@
 # GENO Wellness App Downloads
 
-This repository hosts the installable APK files for the GENO Wellness mobile application.
+This repository tracks download documentation for the GENO Wellness mobile application.
+Large APKs, especially debug builds, should be published as GitHub Release assets instead of being updated in `downloads/`.
 
-## Download Latest Version (v1.1.0 - March 7, 2026)
+## Download Latest Build
 
 ### Android Debug Build
+
+- Direct download: [genowellness-debug.apk](https://github.com/GENO-Wellness/geno-downloads/releases/latest/download/genowellness-debug.apk)
+- Release page: [Latest release assets](https://github.com/GENO-Wellness/geno-downloads/releases/latest)
+
+> Use the release asset for the debug APK. The current local debug file is large and should not be the primary distribution path.
+
+### Android Release Builds
 
 Choose the APK for your device architecture:
 
@@ -16,35 +24,33 @@ Choose the APK for your device architecture:
 
 **Recommended**: Most modern Android phones use **ARM64** (arm64-v8a).
 
-> 📦 **Note**: APK files are hosted as GitHub Release assets to avoid repository size limits.
+> APK files are hosted as GitHub Release assets to avoid repository size limits.
 
-### What's New in v1.1.0
+## How To Update The Debug APK
 
-- Redesigned wellness cards with professional gradient styling
-- Improved "My Wellness" screen with gradient header
-- Enhanced streak tracking with visual flame indicators
-- Better session countdown widgets
-- Points progress with level system
+1. Build or copy the new debug APK locally as `genowellness-debug.apk`.
+2. Upload it to a GitHub Release in `GENO-Wellness/geno-downloads`.
+3. Keep the asset filename exactly `genowellness-debug.apk` so the stable link above keeps working.
+4. Do not commit the new large debug APK into `downloads/`.
 
-### Production Release
+If you need a versioned release URL instead of the stable latest URL, use:
 
-- Coming soon (will be in `android/release/`)
+`https://github.com/GENO-Wellness/geno-downloads/releases/download/<tag>/genowellness-debug.apk`
 
-## Archived Builds
+## Archived Small Builds
 
-Previous builds are available in the `downloads/` folder:
+These smaller builds can remain in `downloads/`:
 
 | File | Size | Type |
 | ---- | ---- | ---- |
-| [geno_wellness_hub.apk](downloads/geno_wellness_hub.apk) | 76 MB | Universal |
-| [genowellness-debug.apk](downloads/genowellness-debug.apk) | 38 MB | Debug |
+| [geno_wellness_hub.apk](downloads/geno_wellness_hub.apk) | 67 MB | Universal |
 | [app-arm64-v8a-release.apk](downloads/app-arm64-v8a-release.apk) | 23 MB | Release ARM64 |
 | [app-armeabi-v7a-release.apk](downloads/app-armeabi-v7a-release.apk) | 20 MB | Release ARM32 |
 | [app-x86_64-release.apk](downloads/app-x86_64-release.apk) | 24 MB | Release x86_64 |
 | [app-arm64-v8a-profile.apk](downloads/app-arm64-v8a-profile.apk) | 33 MB | Profile ARM64 |
 | [app-armeabi-v7a-profile.apk](downloads/app-armeabi-v7a-profile.apk) | 31 MB | Profile ARM32 |
 | [app-x86_64-profile.apk](downloads/app-x86_64-profile.apk) | 35 MB | Profile x86_64 |
-| [app-profile.apk](downloads/app-profile.apk) | 32 MB | Profile Universal |
+| [app-profile.apk](downloads/app-profile.apk) | 31 MB | Profile Universal |
 
 ## Installation Instructions
 
