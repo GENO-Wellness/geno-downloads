@@ -18,9 +18,9 @@ Choose the APK for your device architecture:
 
 | Architecture | Download | Size | Device Type |
 | ------------ | -------- | ---- | ----------- |
-| **ARM64** | [⬇️ Download](https://github.com/GENO-Wellness/geno-downloads/releases/download/v1.1.0/geno-wellness-arm64.apk) | 110 MB | Modern phones (2016+) |
-| **ARM32** | [⬇️ Download](https://github.com/GENO-Wellness/geno-downloads/releases/download/v1.1.0/geno-wellness-armeabi.apk) | 85 MB | Older phones |
-| **x86_64** | [⬇️ Download](https://github.com/GENO-Wellness/geno-downloads/releases/download/v1.1.0/geno-wellness-x86_64.apk) | 100 MB | Emulators/Chromebooks |
+| **ARM64** | [⬇️ Download](https://github.com/GENO-Wellness/geno-downloads/releases/download/v1.1.2/geno-wellness-arm64.apk) | 43 MB | Modern phones (2016+) |
+| **ARM32** | [⬇️ Download](https://github.com/GENO-Wellness/geno-downloads/releases/download/v1.1.2/geno-wellness-armeabi.apk) | 35 MB | Older phones |
+| **x86_64** | [⬇️ Download](https://github.com/GENO-Wellness/geno-downloads/releases/download/v1.1.2/geno-wellness-x86_64.apk) | 48 MB | Emulators/Chromebooks |
 
 **Recommended**: Most modern Android phones use **ARM64** (arm64-v8a).
 
@@ -44,9 +44,9 @@ These smaller builds can remain in `downloads/`:
 | File | Size | Type |
 | ---- | ---- | ---- |
 | [geno_wellness_hub.apk](downloads/geno_wellness_hub.apk) | 67 MB | Universal |
-| [app-arm64-v8a-release.apk](downloads/app-arm64-v8a-release.apk) | 23 MB | Release ARM64 |
-| [app-armeabi-v7a-release.apk](downloads/app-armeabi-v7a-release.apk) | 20 MB | Release ARM32 |
-| [app-x86_64-release.apk](downloads/app-x86_64-release.apk) | 24 MB | Release x86_64 |
+| [app-arm64-v8a-release.apk](downloads/app-arm64-v8a-release.apk) | 43 MB | Release ARM64 |
+| [app-armeabi-v7a-release.apk](downloads/app-armeabi-v7a-release.apk) | 35 MB | Release ARM32 |
+| [app-x86_64-release.apk](downloads/app-x86_64-release.apk) | 48 MB | Release x86_64 |
 | [app-arm64-v8a-profile.apk](downloads/app-arm64-v8a-profile.apk) | 33 MB | Profile ARM64 |
 | [app-armeabi-v7a-profile.apk](downloads/app-armeabi-v7a-profile.apk) | 31 MB | Profile ARM32 |
 | [app-x86_64-profile.apk](downloads/app-x86_64-profile.apk) | 35 MB | Profile x86_64 |
