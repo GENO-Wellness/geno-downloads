@@ -72,6 +72,7 @@ These smaller builds can remain in `downloads/`:
 
 | Version | Date | Changes |
 | ------- | ---- | ------- |
+| 1.1.2 | Apr 15, 2026 | Updated Android release APK downloads for ARM64, ARM32, and x86_64 |
 | 1.1.0 | Mar 7, 2026 | Redesigned wellness cards, improved My Wellness screen |
 | 1.0.0 | Mar 4, 2026 | Initial debug build with Daily.co video calls |
 
